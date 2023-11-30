@@ -31,35 +31,31 @@ document.addEventListener("DOMContentLoaded", function () {
 	
 	
 });
-    const projectsContainer = document.getElementById('project-container');
 
     // Array of project details
-    const projects = [
-        {
-            title: 'Project 1: Virtual Art Gallery',
-            description: 'The Virtual Art Gallery project provides an immersive online platform for art enthusiasts to explore and showcase artwork. Users can upload their own images, contributing to a dynamic and ever-expanding virtual art collection. The gallery features a sleek and user-friendly interface, allowing for easy navigation and appreciation of diverse artworks.',
-            image: 'seni.png', 
-            technologiesUsed: ['HTML5', 'CSS3','JavaScript','FileReader API','Responsive Design (Flexbox)',],
-           link: 'https://rossa072799.github.io/Personal-Portfolio-Website.github.io/project1/Art.html'
-		   
-        },
-        {
-            title: 'Project 2: Online Recipe Book',
-            description: 'Culinary Delights is an online recipe book that allows users to explore and contribute their favorite recipes. The platform features a dynamic display of recipes with detailed information on ingredients and instructions. Users can also add new recipes to share with the community, creating a diverse collection of culinary creations.',
-            image: 'rr.png', 
-            technologiesUsed: ['HTML5', 'CSS3','JavaScript','Responsive Design (Grid Layout)'],
-            link: 'https://rossa072799.github.io/Personal-Portfolio-Website.github.io/project2/OnlineRecipeBook.html'
-        },
-
-        {
-            title: 'Project 3: Personal To-Do List',
-            description: 'The Personal To-Do List is a simple and efficient task management tool designed to help users organize their daily activities. Users can easily add tasks with due dates, mark them as completed, and track their progress. The interface provides a clean and intuitive design, making it convenient for users to manage their to-do lists effectively.',
-            image: 'lol.png', 
-            technologiesUsed: ['HTML5', 'CSS3','JavaScript','Responsive Design (Flexbox)'],
-            link: 'https://rossa072799.github.io/Personal-Portfolio-Website.github.io/project3/PTDLA.html'
-        }
-    ];
-
+  const projects = [
+    {
+        title: 'Project 1: Virtual Art Gallery',
+        description: '...',
+        image: 'seni.png',
+        technologiesUsed: ['HTML5', 'CSS3','JavaScript','FileReader API','Responsive Design (Flexbox)'],
+        link: 'https://rossa072799.github.io/Portfolio-Website-Rossalinda-/project1/Art.html'
+    },
+    {
+        title: 'Project 2: Online Recipe Book',
+        description: '...',
+        image: 'rr.png',
+        technologiesUsed: ['HTML5', 'CSS3','JavaScript','Responsive Design (Grid Layout)'],
+        link: 'https://rossa072799.github.io/Portfolio-Website-Rossalinda-/project2/OnlineRecipeBook.html'
+    },
+    {
+        title: 'Project 3: Personal To-Do List',
+        description: '...',
+        image: 'lol.png',
+        technologiesUsed: ['HTML5', 'CSS3','JavaScript','Responsive Design (Flexbox)'],
+        link: 'https://rossa072799.github.io/Portfolio-Website-Rossalinda-/project3/PTDLA.html'
+    }
+];
     // Function to create project cards
 function createProjectCard(project) {
     const projectCard = document.createElement('div');
